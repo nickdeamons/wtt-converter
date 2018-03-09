@@ -1,0 +1,26 @@
+{
+  "name": "wvtt-converter",
+  "version": "1.0.0",
+  "description": "make transcript files",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp convertXL"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "excel-as-json": "^2.0.1",
+    "fs": "0.0.1-security",
+    "gulp-if": "^2.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8",
+    "jsonfile": "^4.0.0",
+    "load-json-file": "^4.0.0",
+    "path": "^0.12.7",
+    "vtt-creator": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-foreach": "^0.1.0"
+  }
+}
